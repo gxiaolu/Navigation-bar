@@ -1,0 +1,122 @@
+/*.content .record{
+  width: 100%;
+  border: 1px solid red;
+  float: left;
+ 
+} height: 64px;
+  background: url(../img/modular.png) no-repeat;
+*/
+.dsgjdh{
+  overflow: hidden;
+  height: 184px;
+}
+.record li{
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 8px 0;
+  width:40%;
+  padding: 10px 0;
+  margin-right: 10%; 
+  background: url(../img/modular.png) no-repeat;
+  background-size:100% 1080px; 
+  float: left;
+}
+.record li:nth-child(even){
+ float:right;
+ margin-right: 1px;
+}
+.blod{
+  font-weight: bold;
+}
+.record-title{
+  margin-right: px;
+}
+.times{
+  height: 42px;
+}
+.regulator{
+  height: 176px;
+}
+.supervise {
+  text-indent: 10px;
+  background: url(../img/lan.png) no-repeat 0 6px;
+  /*background-size: 100% 100%;*/
+}
+.pollute{
+  text-indent: 13px;
+  color: #bdb9e1;
+  padding-left: 14px;
+  background: url(../img/spot.png) no-repeat -6px -1px;
+}
+.supervise-p{
+  width: 100%;
+  overflow: auto;
+  /*height: 176px;*/
+}
+.supervise-p p{
+  float: left; 
+}
+.modular{
+  border: solid 1px red;
+  overflow: auto;
+  position: relative;
+  /*height: 540px; */ 
+}
+.modular-list{
+  width: 45%;
+  float: left;
+  height: 205px;
+/*  margin-bottom: 45px;*/
+  border: solid 1px #6153F7;
+  padding: 10px 20px;
+  color: #fff;
+  background: rgba(31,4,169,.2);
+  overflow: auto;
+}
+.modular-lista{
+  width: 45%;
+  float: right;
+  height: 205px;
+ /* margin-bottom: 45px;*/
+  border: solid 1px #6153F7;
+  padding: 10px 20px;
+  color: #fff;
+  background: rgba(31,4,169,.2);
+  overflow: auto;
+}
+.modular .service{
+   width: 165px;
+   height: 165px;
+   position:  absolute;
+   left:50%; 
+   top:50%; 
+   margin-left:-83px; 
+   margin-top:-83px; 
+   background: url(../img/service.png) no-repeat center;
+   background-size: 165px 100%;
+   border: 1px solid red; 
+}
+.modular .service p{
+   text-align: center;
+   color: #fff;
+   font-weight: bold;
+   margin-top:68px; 
+   font-size: 18px;
+ /*  border: 1px solid red;*/
+   
+}
+.echartpie{
+  height: 256px;
+}
+.pic{
+   float: left;
+   margin:8px 10px;
+}
+.modular-txt{
+   float: right;
+   margin-right:3px;  
+}
+.modular-listdown{
+   
+}
+
